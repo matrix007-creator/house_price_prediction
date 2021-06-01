@@ -36,8 +36,8 @@ def get_estimated_price(location,sqft,bhk,bath):
 
 if __name__=='__main__':
     load_saved_artifacts()
-    #print(get_location_names())    
-    print(get_estimated_price('nagarbhavi',1200,2,2)) 
+    print(get_location_names())    
+    print(get_estimated_price('yeshwanthpur',800,1,1)) 
     print(get_estimated_price('cunningham road',1200,2,2))        
 
 
